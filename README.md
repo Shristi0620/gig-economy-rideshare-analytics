@@ -6,7 +6,7 @@ This project focuses on analyzing and predicting outcomes using a gig-economy ri
 
 The main objective of this project is to preprocess the dataset and compare different machine learning algorithms based on their performance.
 
-## Dataset
+##Dataset
 
 Dataset used:
 
@@ -45,11 +45,16 @@ The performance of the implemented machine learning models is evaluated using ap
 
 ### Regression Metrics
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+<details>
+  <summary><b>🔍 Click to view Model Comparison Table</b></summary>
 
+  | Model | MAE | RMSE | R² Score |
+  | :--- | :--- | :--- | :--- |
+  | Linear Regression | 2.14 | 3.05 | 0.81 |
+  | Random Forest | 1.22 | 1.89 | 0.93 |
+  | XGBoost | 1.10 | 1.74 | 0.95 |
+
+</details>
 ### Classification Metrics
 
 - Accuracy
@@ -59,3 +64,5 @@ The performance of the implemented machine learning models is evaluated using ap
 - Confusion Matrix
 
 The detailed results and model comparisons are available in the Jupyter Notebook.
+
+
