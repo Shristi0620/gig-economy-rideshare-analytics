@@ -46,7 +46,7 @@ The performance of the implemented machine learning models is evaluated using ap
 ### Regression Metrics
 
 <details>
-  <summary><b>🔍 Click to view Model Comparison Table</b></summary>
+  <summary><b> Click to view Model Comparison Table</b></summary>
 
   | Model | MAE | RMSE | R² Score |
   | :--- | :--- | :--- | :--- |
