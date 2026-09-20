@@ -45,8 +45,6 @@ The performance of the implemented machine learning models is evaluated using ap
 
 ### Regression Metrics
 
-<details>
-  <summary><b> Click to view Model Comparison Table</b></summary>
 
   | Model | MAE | RMSE | R² Score |
   | :--- | :--- | :--- | :--- |
@@ -54,7 +52,6 @@ The performance of the implemented machine learning models is evaluated using ap
   | Random Forest | 1.22 | 1.89 | 0.93 |
   | XGBoost | 1.10 | 1.74 | 0.95 |
 
-</details>
 ### Classification Metrics
 
 - Accuracy
