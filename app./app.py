@@ -14,7 +14,11 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
+# Find the models folder. Works with the folder named "models" or "models." (as in the GitHub repo),
+# whether it sits next to the app folder or inside it.
+_HERE = Path(__file__).resolve().parent
+MODELS_DIR = next((d for d in [_HERE.parent / "models", _HERE.parent / "models.", _HERE / "models"]
+                   if (d / "burnout_classifier.pkl").exists()), _HERE.parent / "models")
 
 # ----------------------------------------------------------------------------- design tokens
 ASPHALT = "#1F2933"      # header band, primary text
@@ -64,6 +68,9 @@ html, body, [class*="css"], .stApp, .stMarkdown, label, input, button, textarea 
 }}
 .stApp {{ background: {OVERCAST}; color: {ASPHALT}; }}
 header[data-testid="stHeader"] {{ background: transparent; }}
+div[data-baseweb="slider"] div[role="slider"] {{ background-color: {ASPHALT}; box-shadow: none; }}
+div[data-testid="stSliderThumbValue"] {{ color: {ASPHALT}; }}
+button[data-baseweb="tab"][aria-selected="true"] p {{ color: {ASPHALT}; }}
 .block-container {{ padding-top: 1.5rem; max-width: 1180px; }}
 h1, h2, h3, h4 {{ font-family: 'Barlow Condensed', 'Segoe UI', sans-serif; color: {ASPHALT}; letter-spacing: 0.01em; }}
 
