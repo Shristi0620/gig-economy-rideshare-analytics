@@ -1,8 +1,8 @@
-# Minimal dependencies for deploying app/app.py (Streamlit Community Cloud reads this file
-# because it sits next to the entry-point script). scikit-learn MUST match the version that
-# saved models/*.pkl, otherwise the pickled models may fail to load.
+# Dependencies for the Streamlit app (Streamlit Community Cloud reads this file because it sits
+# next to app.py). scikit-learn is pinned to 1.7.2 because the model files in models./ were
+# saved with scikit-learn 1.7.2 - a pickled model must be loaded with the same version.
 streamlit==1.65.0
-scikit-learn==1.9.1
+scikit-learn==1.7.2
 numpy==2.4.6
 pandas==3.0.6
 joblib==1.6.0
