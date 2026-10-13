@@ -1,4 +1,4 @@
-"""Shift Check — gig-driver burnout & earnings predictor (Streamlit GUI, Review 2 bonus).
+"""Shift Check — gig-driver burnout & earnings predictor.
 
 Loads the models saved by Section G of notebooks/regression_classification.ipynb:
   models/burnout_classifier.pkl   -> predicts burnout_risk (Low / Medium / High)
