@@ -44,7 +44,7 @@ The project has three ML tracks:
 
 The project also includes a Streamlit GUI as a bonus feature.
 
-## 2. First Analyze My Review 2 Guidelines
+## 2. Review Guidelines
 
 Before generating the code, read the entire Review 2 guidelines and identify every required task.
 
@@ -289,7 +289,7 @@ If the official guidelines require a train-test comparison:
 - Do not pretend that standard Agglomerative Clustering directly supports prediction on unseen samples.
 - Clearly explain how test-set metrics are computed.
 
-## 9. Clustering Bonus Requirements
+## 9. Clustering Requirements
 
 Carefully inspect the official guidelines for the two bonus marks.
 
