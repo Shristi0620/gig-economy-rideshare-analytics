@@ -1,6 +1,3 @@
-# Dependencies for the Streamlit app (Streamlit Community Cloud reads this file because it sits
-# next to app.py). scikit-learn is pinned to 1.7.2 because the model files in models./ were
-# saved with scikit-learn 1.7.2 - a pickled model must be loaded with the same version.
 streamlit==1.65.0
 scikit-learn==1.7.2
 numpy==2.4.6
