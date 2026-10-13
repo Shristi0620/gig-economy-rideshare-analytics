@@ -65,8 +65,7 @@ The performance of the implemented machine learning models is evaluated using ap
 - F1 Score
 - Confusion Matrix
 
-
-3. Results summary (sample dataset, 80:20 split, `random_state=42`)
+  3. Results summary (sample dataset, 80:20 split, `random_state=42`)
 Regression — 10 algorithms (Review 1), ranked by test R²
 Algorithm	R²	RMSE ($)	MAE ($)
 Random Forest Regressor	0.828	6.45	3.80
@@ -165,4 +164,6 @@ Paste the public URL here: Live app: [https://….streamlit.app]
 Generative AI (Claude, by Anthropic) was used for code scaffolding of the Review 2 sections (classification Part B,
 the clustering notebook, the Streamlit app) and for drafting this README's structure. All analysis and interpretation
 (the `Observation` cells, the final-model justification and the conclusions) was written by the team.
+
+
 
