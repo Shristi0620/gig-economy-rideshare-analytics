@@ -1,0 +1,13 @@
+# Exact versions used to run and test both notebooks and the app (tested on Python 3.11).
+# Install:  pip install -r requirements.txt
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.17.1
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+streamlit==1.65.0
+# Running notebooks (headless "Run All" via nbconvert, or open them in Jupyter / VS Code)
+ipykernel==7.4.0
+nbconvert==7.17.2
